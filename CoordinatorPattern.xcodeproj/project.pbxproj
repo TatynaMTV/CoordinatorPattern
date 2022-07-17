@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		E27A250A28818186003E9078 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A250928818186003E9078 /* AppDelegate.swift */; };
 		E27A250C28818186003E9078 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A250B28818186003E9078 /* SceneDelegate.swift */; };
-		E27A250E28818186003E9078 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A250D28818186003E9078 /* ViewController.swift */; };
-		E27A251128818186003E9078 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27A250F28818186003E9078 /* Main.storyboard */; };
+		E27A250E28818186003E9078 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A250D28818186003E9078 /* HomeViewController.swift */; };
 		E27A251328818188003E9078 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E27A251228818188003E9078 /* Assets.xcassets */; };
 		E27A251628818188003E9078 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E27A251428818188003E9078 /* LaunchScreen.storyboard */; };
+		E27A2520288181CC003E9078 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A251F288181CC003E9078 /* Coordinator.swift */; };
+		E27A25242881827B003E9078 /* Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A25232881827B003E9078 /* Transitions.swift */; };
+		E27A252628818316003E9078 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A252528818316003E9078 /* AppCoordinator.swift */; };
+		E27A252828842B0C003E9078 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A252728842B0C003E9078 /* SecondViewController.swift */; };
+		E27A253428849066003E9078 /* Inetractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A253328849066003E9078 /* Inetractor.swift */; };
+		E27A253628849077003E9078 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A253528849077003E9078 /* Presenter.swift */; };
+		E27A253828849092003E9078 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A253728849092003E9078 /* Entity.swift */; };
+		E27A253A288490A3003E9078 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A2539288490A3003E9078 /* Router.swift */; };
+		E27A253C28849D2C003E9078 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A253B28849D2C003E9078 /* AccountViewController.swift */; };
+		E27A253E2884B139003E9078 /* CreateAccountAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27A253D2884B139003E9078 /* CreateAccountAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E27A250628818186003E9078 /* CoordinatorPattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorPattern.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E27A250928818186003E9078 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E27A250B28818186003E9078 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E27A250D28818186003E9078 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E27A251028818186003E9078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E27A250D28818186003E9078 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E27A251228818188003E9078 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E27A251528818188003E9078 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E27A251728818188003E9078 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E27A251F288181CC003E9078 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E27A25232881827B003E9078 /* Transitions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transitions.swift; sourceTree = "<group>"; };
+		E27A252528818316003E9078 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		E27A252728842B0C003E9078 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E27A253328849066003E9078 /* Inetractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inetractor.swift; sourceTree = "<group>"; };
+		E27A253528849077003E9078 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		E27A253728849092003E9078 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		E27A2539288490A3003E9078 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		E27A253B28849D2C003E9078 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		E27A253D2884B139003E9078 /* CreateAccountAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountAssembly.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,80 @@
 		E27A250828818186003E9078 /* CoordinatorPattern */ = {
 			isa = PBXGroup;
 			children = (
-				E27A250928818186003E9078 /* AppDelegate.swift */,
-				E27A250B28818186003E9078 /* SceneDelegate.swift */,
-				E27A250D28818186003E9078 /* ViewController.swift */,
-				E27A250F28818186003E9078 /* Main.storyboard */,
-				E27A251228818188003E9078 /* Assets.xcassets */,
-				E27A251428818188003E9078 /* LaunchScreen.storyboard */,
+				E27A252A28848C88003E9078 /* Coordinator */,
+				E27A252928848C66003E9078 /* VIPER Controller */,
+				E27A252B28848CBA003E9078 /* Support files */,
 				E27A251728818188003E9078 /* Info.plist */,
 			);
 			path = CoordinatorPattern;
+			sourceTree = "<group>";
+		};
+		E27A251D288181AE003E9078 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				E27A251E288181BA003E9078 /* Protocols */,
+				E27A252528818316003E9078 /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		E27A251E288181BA003E9078 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E27A251F288181CC003E9078 /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E27A252128818266003E9078 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E27A250D28818186003E9078 /* HomeViewController.swift */,
+				E27A252728842B0C003E9078 /* SecondViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E27A25222881826C003E9078 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E27A25232881827B003E9078 /* Transitions.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E27A252928848C66003E9078 /* VIPER Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E27A253B28849D2C003E9078 /* AccountViewController.swift */,
+				E27A253528849077003E9078 /* Presenter.swift */,
+				E27A253328849066003E9078 /* Inetractor.swift */,
+				E27A2539288490A3003E9078 /* Router.swift */,
+				E27A253728849092003E9078 /* Entity.swift */,
+				E27A253D2884B139003E9078 /* CreateAccountAssembly.swift */,
+			);
+			path = "VIPER Controller";
+			sourceTree = "<group>";
+		};
+		E27A252A28848C88003E9078 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				E27A251D288181AE003E9078 /* Coordinators */,
+				E27A252128818266003E9078 /* Views */,
+				E27A25222881826C003E9078 /* Models */,
+			);
+			name = Coordinator;
+			sourceTree = "<group>";
+		};
+		E27A252B28848CBA003E9078 /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				E27A250928818186003E9078 /* AppDelegate.swift */,
+				E27A250B28818186003E9078 /* SceneDelegate.swift */,
+				E27A251228818188003E9078 /* Assets.xcassets */,
+				E27A251428818188003E9078 /* LaunchScreen.storyboard */,
+			);
+			path = "Support files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +210,6 @@
 			files = (
 				E27A251628818188003E9078 /* LaunchScreen.storyboard in Resources */,
 				E27A251328818188003E9078 /* Assets.xcassets in Resources */,
-				E27A251128818186003E9078 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +220,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E27A250E28818186003E9078 /* ViewController.swift in Sources */,
+				E27A252628818316003E9078 /* AppCoordinator.swift in Sources */,
+				E27A253C28849D2C003E9078 /* AccountViewController.swift in Sources */,
+				E27A253E2884B139003E9078 /* CreateAccountAssembly.swift in Sources */,
+				E27A2520288181CC003E9078 /* Coordinator.swift in Sources */,
+				E27A253428849066003E9078 /* Inetractor.swift in Sources */,
+				E27A253A288490A3003E9078 /* Router.swift in Sources */,
+				E27A253628849077003E9078 /* Presenter.swift in Sources */,
+				E27A25242881827B003E9078 /* Transitions.swift in Sources */,
+				E27A250E28818186003E9078 /* HomeViewController.swift in Sources */,
+				E27A253828849092003E9078 /* Entity.swift in Sources */,
+				E27A252828842B0C003E9078 /* SecondViewController.swift in Sources */,
 				E27A250A28818186003E9078 /* AppDelegate.swift in Sources */,
 				E27A250C28818186003E9078 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +239,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E27A250F28818186003E9078 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E27A251028818186003E9078 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E27A251428818188003E9078 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +376,6 @@
 				INFOPLIST_FILE = CoordinatorPattern/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +403,6 @@
 				INFOPLIST_FILE = CoordinatorPattern/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
